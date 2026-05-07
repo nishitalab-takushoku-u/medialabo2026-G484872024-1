@@ -16,3 +16,12 @@ let gakka = [
 
 //////////////// ここから下にプログラムを書きたそう!
 
+(campus.address);
+console.log("八王子市館町");
+for (let room of campus.buildingD) {
+console.log(room);
+}
+
+for (let item of gakka) {
+console.log(item.name);
+}
