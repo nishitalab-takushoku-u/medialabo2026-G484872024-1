@@ -4,8 +4,9 @@
 }
 h1 {
   color: white;
-  text-shadow: 2px 2px navy;
-}
+  text-shadow:
+    1px 1px 10px rgb(33, 51, 154);
+   }
 #zentai {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -21,7 +22,7 @@ h1 {
 #zentai h2 {
   font-family: cursive;
   color: #3f3faf;
-  background: linear-gradient(white, #ffefaf);
+  background: linear-gradient(90deg in oklab,white, #ffefaf);
 }
 #zentai img {
   float: right;
